@@ -14,4 +14,5 @@ urlpatterns = [
     path('career/', views.career, name = 'career'),
     path('press/', views.press, name = 'press'),
     path('blog/', views.blog, name = 'blog'),
+    path('local/', views.local, name = 'local'),
 ]

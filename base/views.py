@@ -32,3 +32,6 @@ def press(request):
 
 def blog(request):
     return render(request, 'blog.html')
+
+def local(request):
+    return render(request, 'local_dish.html')
